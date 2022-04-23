@@ -5,20 +5,89 @@ body {
 }
 
 #container {
+  position: relative;
+
   width: 489px;
   height: 990px;
 
   margin: 0 auto;
 
   /* background-image: url("../images/apple-iphone-12-pro-max.webp"); */
-  background-image: url("../images/iphone-background.png");
+  background-image: url("../images/sample-mockup.png");
 
   background-repeat: no-repeat;
   /* background-position: center; */
 }
 
-ol li {
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid black;
+.section {
+  position: absolute;
+}
+
+#status {
+  list-style: none;
+  top: 25px;
+  left: 29px;
+}
+
+#status li {
+  float: left;
+  font-size: 18px;
+}
+
+#status li:first-child {
+  margin-right: 262px;
+}
+
+#name {
+  top: 79px;
+  left: 43px;
+
+  font-size: 40px;
+  color: rgb(0, 122, 255);
+}
+
+#list {
+  top: 122px;
+  left: 2px;
+  list-style: none;
+}
+
+#list li {
+  margin-top: 2px;
+}
+
+#list table {
+  margin-bottom: 4px;
+}
+
+#list li .description {
+  padding-left: 9px;
+  padding-top: 1px;
+
+  font-size: 20px;
+}
+
+#list li .date {
+  padding-left: 9px;
+  padding-bottom: 9px;
+
+  border-bottom: 1px solid rgb(236, 236, 237);
+
+  color: rgb(125, 125, 130);
+}
+
+#list li .check {
+  font-size: 26px;
+}
+
+#list li .des #input {
+  top: 600px;
+}
+
+#input {
+  font-size: 22px;
+  color: rgb(0, 122, 255);
+
+  left: 44px;
+  bottom: 69px;
 }
