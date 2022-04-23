@@ -2,8 +2,6 @@ body {
   /* background-color: black; */
   width: 100vw;
   height: 100vh;
-
-  font-family: "Hi Melody", cursive;
 }
 
 #container {
@@ -15,8 +13,8 @@ body {
   margin: 0 auto;
 
   /* background-image: url("../images/apple-iphone-12-pro-max.webp"); */
-  background-image: url("../images/sample-mockup.png");
-  /* background-image: url("../images/iphone-background.png"); */
+  /* background-image: url("../images/sample-mockup.png"); */
+  background-image: url("../images/iphone-background.png");
 
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -28,8 +26,10 @@ body {
 
 #status {
   list-style: none;
-  top: 25px;
+  top: 20px;
   left: 29px;
+
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 #status li {
@@ -45,12 +45,13 @@ body {
   top: 79px;
   left: 43px;
 
-  font-size: 40px;
+  font-size: 32px;
+  font-family: "Noto Sans KR", sans-serif;
   color: rgb(0, 122, 255);
 }
 
 #list {
-  top: 122px;
+  top: 120px;
   left: 2px;
   list-style: none;
 }
@@ -60,14 +61,15 @@ body {
 }
 
 #list table {
-  margin-bottom: 4px;
+  width: 100%;
 }
 
 #list li .description {
   padding-left: 9px;
   padding-top: 1px;
 
-  font-size: 20px;
+  font-size: 18px;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 #list li .date {
@@ -76,6 +78,8 @@ body {
 
   border-bottom: 1px solid rgb(236, 236, 237);
 
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
   color: rgb(125, 125, 130);
 }
 
@@ -93,4 +97,6 @@ body {
 
   left: 44px;
   bottom: 69px;
+
+  font-family: "Noto Sans KR", sans-serif;
 }
