@@ -2,6 +2,8 @@ body {
   /* background-color: black; */
   width: 100vw;
   height: 100vh;
+
+  font-family: "Hi Melody", cursive;
 }
 
 #container {
@@ -14,6 +16,7 @@ body {
 
   /* background-image: url("../images/apple-iphone-12-pro-max.webp"); */
   background-image: url("../images/sample-mockup.png");
+  /* background-image: url("../images/iphone-background.png"); */
 
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -85,7 +88,7 @@ body {
 }
 
 #input {
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(0, 122, 255);
 
   left: 44px;
