@@ -53,6 +53,8 @@ body {
 #list {
   top: 120px;
   left: 2px;
+
+  width: 420px;
   list-style: none;
 }
 
@@ -64,16 +66,14 @@ body {
   width: 100%;
 }
 
-#list li .description {
-  padding-left: 9px;
+table #list li .description {
   padding-top: 1px;
 
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Noto Sans KR", sans-serif;
 }
 
 #list li .date {
-  padding-left: 9px;
   padding-bottom: 9px;
 
   border-bottom: 1px solid rgb(236, 236, 237);
@@ -81,6 +81,10 @@ body {
   font-size: 16px;
   font-family: "Noto Sans KR", sans-serif;
   color: rgb(125, 125, 130);
+}
+
+#list table td:nth-child(1) {
+  width: 10%;
 }
 
 #list li .check {
