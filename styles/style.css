@@ -8,6 +8,8 @@ body {
   width: 489px;
   height: 990px;
 
+  margin: 0 auto;
+
   /* background-image: url("../images/apple-iphone-12-pro-max.webp"); */
   background-image: url("../images/iphone-background.png");
 
