@@ -1,13 +1,22 @@
 body {
-  background-image: url("../images/apple-iphone-12-pro-max.webp");
-
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  background-color: black;
-
+  /* background-color: black; */
   width: 100vw;
   height: 100vh;
+}
 
-  background-position: center;
+#container {
+  width: 489px;
+  height: 990px;
+
+  /* background-image: url("../images/apple-iphone-12-pro-max.webp"); */
+  background-image: url("../images/iphone-background.png");
+
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+ol li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
